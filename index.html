@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <label id="carrierLabel" for="carrier">Carrier Ratio</label>
+        <input type="range" id="carrier" min="20" max="2000" value="440" />
+        <br />
+        <label id="modulatorLabel" for="modulator">Modulator Frequency Ratio</label>
+        <input type="range" id="modulator" min="1" max="20" value = "2"/>
+        <br />
+        <label for="depth" id="depthLabel">FM Index</label>
+        <input type="range" id="depth" min="0" max="20" step="0.01" value = "0.5"/>
+
+
+        <input type="button" id="on_off" value="Play" />
+    </body>
+</html>
